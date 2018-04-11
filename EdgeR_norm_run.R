@@ -8,3 +8,5 @@ wkdir='/Volumes/My Book for Mac/rnaseq_l1_timecourse/star_out'
 setwd(wkdir)
 name=read.table('../rnaseq/name.txt',sep='\t',stringsAsFactors = F)
 outname='count_merged.txt'
+mergecounts(name,outname)
+
